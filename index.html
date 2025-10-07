@@ -55,6 +55,35 @@
       gap: var(--gap);
     }
 
+
+
+
+/* Header container */
+.site-header {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #fff; /* optional: change background if needed */
+}
+
+/* Logo styling */
+.site-logo {
+  width: 120px;        /* default size */
+  height: auto;
+  border-radius: 10px; /* optional: makes edges soft */
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .site-logo {
+    width: 90px;  /* smaller size for phones */
+  }
+}
+
+
+
+    
+
     /* Header and Navigation */
     .header {
       display: flex;
@@ -708,6 +737,17 @@
 <body>
   <div class="container">
     <!-- Header Section -->
+
+
+
+<header class="site-header">
+  <img src="icon.jpg" alt="Website Logo" class="site-logo">
+</header>
+
+
+
+
+    
     <header class="header">
       <div class="brand">
         <div class="logo"> </div>
@@ -1386,6 +1426,7 @@
   </script>
 </body>
 </html> 
+
 
 
 
